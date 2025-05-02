@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+}
+
+.navbar{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background-color: white;
+
+}
+
+.nav-logo{
+    width: 192px;
+    height: 85px;
+    margin-left: 10px;
+}
+
+.logo{
+    background-image: url(logo.png);
+    background-size: cover;
+    width: 192px;
+    height: 84px;
+}
+
+.items{
+    display: flex;
+    justify-content: space-between;
+    color: #002d5d;
+    font-size: 23px;
+    margin-left: 5px;
+    font-family: sans-serif;
+    margin-right: 10px;
+}
+
+.items p{
+    margin-right: 25px;
+    
+}
+
+.items:hover{
+ text-decoration-line: underline;
+ 
+}
+
+
+.main{
+    width: 1283px;
+    height: 423px;
+    padding: 130px
+}
+
+.sub{
+    width: 1283px;
+    height: 550px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.sub img{
+    width: 400px;
+    height: 120px;
+    margin: 0px 0px 40px;
+    
+}
+
+h1{
+    max-width: 471px;
+    color: #002d5d;
+    font-family: 'league spartan' sans-serif ;
+    opacity: 1;
+    display: flex;
+}
+
+.sub video{
+    width: 700px;
+    height: 400px;
+    display: flex;
+    margin: 0px 40px 0px 0px;
+}
+
+.main2{
+    width: 1283px;
+    height: 750px;
+    padding: 80px 48px;
+    margin: 16px 0px 0px;
+    display: flex;
+   
+}
+
+
+.sub2{
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.sub2 video{
+    width: 700px;
+    height: 400px;
+}
+
+.sub2 h1{
+   
+    margin-left: 80px;
+    margin-top: 80px;
+
+}
+
+footer{
+    width: 1340px;
+    height: 330px;
+}
+
+.panel{    
+        background-color: #7b9cbe;
+        color: white;
+        height: 420px;
+        width: 1583px;
+        display: flex;
+        justify-content: space-evenly;
+     }
+
+     ul{
+        margin-top: 21px;
+     }
+
+     ul a{
+        display: block;
+        color: #dddddd;
+        font-size: 0.85rem;
+        margin-top: 10px;
+     
+     }
+
+     footer .logo{
+        margin-left: -370px;
+     }
+
+     .imp{
+        display: flex;
+        justify-content: center;
+        margin-left: 10px;
+     }
