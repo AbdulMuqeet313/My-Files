@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: azure;
+}
+nav{
+    font-family: "Noto Sans", sans-serif;
+}
+
+nav ul{
+    display:flex ;
+    align-items: center;
+    list-style-type: none;
+    height: 98px;
+    background-color: aquamarine;
+}
+
+li img{
+    height: 93px;
+    filter: grayscale(100%) sepia(100%) hue-rotate(120deg) saturate(200%);
+    align-items: center;
+    
+}
+nav ul li{
+    padding-left: 15px;
+}
+
+#Title{
+    font-weight: bolder;
+    padding-left: 0px;
+    font-size: 25px;
+}
+
+
+.container{
+    min-height:72vh ;
+    background-color: indianred;
+    color: aliceblue;
+    font-family: "Noto Sans", sans-serif;
+    display: flex;
+    margin: 23px 0;
+    width: 70%;
+    margin-left: 230px;
+    border-radius: 13px;
+    padding: 28px;
+    background-image: url(bkgimg.jpg);
+}
+.bottom{
+    position: sticky;
+    bottom: 0;
+    height: 137px;
+    background-color: darkslategrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* margin: 12px 0px; */
+}
+
+.icons{
+    margin-top: 13px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+#myProgressbar{
+    width: 80vw;
+    cursor: pointer;
+}
+/* #photo{
+    height: 110px;
+    width: 110px;
+} */
+
+.songlistplay i{
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.songitem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    width: 100%;
+    color: black;
+    border-radius: 30px;
+}
+
+.songitem img{
+    border-radius: 30px;
+}
+
+.name{
+    font-size: 15px;
+}
+.time{
+    font-size: 15px;
+    margin-left: -26px;
+    margin-right: 10px;
+    /* cursor: pointer; */
+}
+
+.songitemcontainer{
+    margin-top: 50px;
+}
+
+.songinfo{
+    position: absolute;
+    left: 10vw;
+    margin-top: -48px;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.songinfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+
+
